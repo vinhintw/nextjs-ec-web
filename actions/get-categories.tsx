@@ -1,4 +1,5 @@
 import { Category } from "@/types";
+export const runtime = "edge";
 
 const URL = `${process.env.NEXT_PUBLIC_API_URL}/categories/getall`;
 const STORE_ID = process.env.NEXT_PUBLIC_STORE_ID;

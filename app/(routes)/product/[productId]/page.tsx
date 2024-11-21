@@ -6,6 +6,7 @@ import getProducts from '@/actions/get-products';
 import Container from '@/components/ui/container';
 
 export const revalidate = 0;
+export const runtime = "edge";
 
 interface ProductPageProps {
   params: {

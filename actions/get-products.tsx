@@ -1,5 +1,6 @@
 import { Product } from "@/types";
 import qs from "query-string";
+export const runtime = "edge";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL;
 const STORE_ID = process.env.NEXT_PUBLIC_STORE_ID;

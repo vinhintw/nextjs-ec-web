@@ -9,6 +9,7 @@ import Summary from './components/summary'
 import CartItem from './components/cart-item';
 
 export const revalidate = 0;
+export const runtime = "edge";
 
 const CartPage = () => {
   const [isMounted, setIsMounted] = useState(false);

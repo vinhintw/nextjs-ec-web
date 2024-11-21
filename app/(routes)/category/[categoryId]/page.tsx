@@ -11,7 +11,8 @@ import getColors from '@/actions/get-colors';
 
 import Filter from './components/filter';
 import MobileFilters from './components/mobile-filters';
-import getBillboard from '@/actions/get-billboard';
+
+export const runtime = "edge";
 
 export const revalidate = 0;
 

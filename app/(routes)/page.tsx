@@ -5,6 +5,7 @@ import Billboard from "@/components/ui/billboard";
 import Container from "@/components/ui/container";
 
 export const revalidate = 0;
+export const runtime = "edge";
 
 const HomePage = async () => {
   const products = await getProducts({ isFeatured: true });
