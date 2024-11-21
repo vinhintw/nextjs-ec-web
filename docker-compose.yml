@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  ec-web:
+    image: vinhintw2014/ec-web:v1.0
+    container_name: ec-web
+    ports:
+      - "18020:3000"
+    env_file:
+      - .env

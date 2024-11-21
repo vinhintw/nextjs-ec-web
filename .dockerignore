@@ -1,0 +1,40 @@
+node_modules
+Dockerfile*
+docker-compose*
+.git
+.gitignore
+README.md
+LICENSE
+.vscode
+Makefile
+helm-charts
+.editorconfig
+.idea
+coverage*
+.next
+out
+# Bỏ qua các file log
+*.log
+
+# Bỏ qua các file môi trường
+uploads
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Bỏ qua các file tạm thời và cache
+*.swp
+*.swo
+*.tmp
+.cache
+.history
+
+# Bỏ qua các file hệ thống
+.DS_Store
+Thumbs.db
+
+# Bỏ qua các file Docker
+Dockerfile
+.dockerignore
